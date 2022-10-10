@@ -30,7 +30,7 @@ export const withToast = (promise) => {
                             Has been succesfuly processed
                         </p>
                         <a
-                            href={`https://ropsten.etherscan.io/tx/${data.transactionHash}`}
+                            href={`https://goerli.etherscan.io/tx/${data.transactionHash}`}
                             target="_blank"
                         >
                             <i 
